@@ -1,5 +1,27 @@
-.App {
-  text-align: center;
+.app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  background-color: #000000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 46px;
+}
+
+h1 {
+  color: gray;
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 33.33%;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  left: -20px;
+  background-image: url('./nav_bar.png');
 }
 
 .App-logo {
@@ -36,3 +58,11 @@
     transform: rotate(360deg);
   }
 }
+
+.movie {
+  flex: 1 0 33.33%;
+  flex-direction: column;
+  margin-bottom: 90px;
+}
+
+
