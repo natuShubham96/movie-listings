@@ -1,6 +1,7 @@
 import initialState from './initialState';
 
-const reducer = (state,action) => {
+//since only perfroming one type of action, hece used if and not switch
+const reducer = (state={initialState},action) => {
     if(action.type === "change") {
       let filteredData = initialState.dataToDisplay;
       if(action.payload) {
@@ -8,7 +9,7 @@ const reducer = (state,action) => {
       }
       return {dataToDisplay: filteredData, value: action.payload};
     }
-    return initialState;
-  }
+    return state;
+}
 
-  export default reducer;
+export default reducer;

@@ -1,8 +1,26 @@
-import { render, screen } from '@testing-library/react';
+import {shallow, configure} from 'enzyme';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+configure({ adapter: new Adapter() });
+
+describe("Testing App", () => {
+
+  const app = shallow(<App />);
+
+  it('Checking Search component mounted', () => {
+
+    expect(app.find('Search').exists()).toBe(true);
+
+  })
+
+  it('Checking List component mounted', () => {
+
+    expect(app.find('List').exists()).toBe(true);
+
+  })
+
+
+}
+)
+
