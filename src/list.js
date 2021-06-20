@@ -15,7 +15,7 @@ function List({state}) {
   //displaying list when data present and not available text when nothing to display
   return (
     <div className="app">
-      {state.dataToDisplay.length && state.dataToDisplay.map(data => <Suspense key={Math.random()}><div className="movie"><img src={imageSource(data['poster-image'])} alt="" /><h1>{data.name}</h1></div></Suspense>)}
+      {state.dataToDisplay.length && state.dataToDisplay.map(data => <Suspense key={Math.random()}><div className="movie"><img src={imageSource(data['poster-image'])} alt="" style={{height: "26.5vh", width: "24.5vw"}} /><h1>{data.name}</h1></div></Suspense>)}
       {!state.dataToDisplay.length && <h1>Nothing to display, search for something else!</h1>}
     </div>
   )
