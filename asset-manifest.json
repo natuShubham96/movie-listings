@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/movie-listings/static/css/main.17c732f6.chunk.css",
+    "main.js": "/movie-listings/static/js/main.8b3d12f0.chunk.js",
+    "main.js.map": "/movie-listings/static/js/main.8b3d12f0.chunk.js.map",
+    "runtime-main.js": "/movie-listings/static/js/runtime-main.481bbc47.js",
+    "runtime-main.js.map": "/movie-listings/static/js/runtime-main.481bbc47.js.map",
+    "static/js/2.40e51d38.chunk.js": "/movie-listings/static/js/2.40e51d38.chunk.js",
+    "static/js/2.40e51d38.chunk.js.map": "/movie-listings/static/js/2.40e51d38.chunk.js.map",
+    "static/js/3.69aa837f.chunk.js": "/movie-listings/static/js/3.69aa837f.chunk.js",
+    "static/js/3.69aa837f.chunk.js.map": "/movie-listings/static/js/3.69aa837f.chunk.js.map",
+    "index.html": "/movie-listings/index.html",
+    "static/css/main.17c732f6.chunk.css.map": "/movie-listings/static/css/main.17c732f6.chunk.css.map",
+    "static/js/2.40e51d38.chunk.js.LICENSE.txt": "/movie-listings/static/js/2.40e51d38.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/movie-listings/static/media/logo.6ce24c58.svg",
+    "static/media/poster1.jpg": "/movie-listings/static/media/poster1.d966e333.jpg",
+    "static/media/poster2.jpg": "/movie-listings/static/media/poster2.bf23bfae.jpg",
+    "static/media/poster3.jpg": "/movie-listings/static/media/poster3.7ee7b802.jpg",
+    "static/media/poster4.jpg": "/movie-listings/static/media/poster4.a2f1de9b.jpg",
+    "static/media/poster5.jpg": "/movie-listings/static/media/poster5.d0a9cf21.jpg",
+    "static/media/poster6.jpg": "/movie-listings/static/media/poster6.57e30e48.jpg",
+    "static/media/poster7.jpg": "/movie-listings/static/media/poster7.8f23c2d5.jpg",
+    "static/media/poster8.jpg": "/movie-listings/static/media/poster8.61013e43.jpg",
+    "static/media/poster9.jpg": "/movie-listings/static/media/poster9.080f3385.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.481bbc47.js",
+    "static/js/2.40e51d38.chunk.js",
+    "static/css/main.17c732f6.chunk.css",
+    "static/js/main.8b3d12f0.chunk.js"
+  ]
+}
